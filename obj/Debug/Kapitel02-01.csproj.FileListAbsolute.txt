@@ -1,1 +1,9 @@
 \\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\bin\Debug\Kapitel02-01.exe.config
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\bin\Debug\Kapitel02-01.exe
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\bin\Debug\Kapitel02-01.pdb
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\obj\Debug\Kapitel02-01.csprojResolveAssemblyReference.cache
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\obj\Debug\Kapitel02_01.Form1.resources
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\obj\Debug\Kapitel02_01.Properties.Resources.resources
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\obj\Debug\Kapitel02-01.csproj.GenerateResource.Cache
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\obj\Debug\Kapitel02-01.exe
+\\utbfs02\GemensamtElev\GyV\PRRPRR02\ELEVMAPPAR\Melvin\Kapitel02-01\Kapitel02-01\obj\Debug\Kapitel02-01.pdb

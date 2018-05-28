@@ -115,12 +115,31 @@ namespace Kapitel02_01
 
         private void btnRegistrera_Click(object sender, EventArgs e)
         {
-            Bok nyBok = new Bok(Convert.ToString(tbxTitel.Text), Convert.ToInt32(tbxSidor.Text));
-            Ljudspår nyttLjud = new Ljudspår(Convert.ToString(tbxTitel.Text), Convert.ToDouble(tbxSpeltid.Text));
-            Film nyFilm = new Film(Convert.ToString(tbxTitel.Text), Convert.ToDouble(tbxSpeltid.Text), Convert.ToString(tbxUpplosning.Text)); 
-            if (rdbVar == 1) {  bibliotek.Add(nyBok); }
-            else if (rdbVar == 2) { bibliotek.Add(nyttLjud); }
-            else if (rdbVar == 3) { bibliotek.Add(nyFilm); }
+            if (rdbVar == 1)
+            {
+                Bok nyBok = new Bok(tbxTitel.Text, Convert.ToInt32(tbxSidor.Text));
+                bibliotek.Add(nyBok);
+                lbxBibliotek.Items.Add(nyBok);
+                tbxTitel.Text = "";
+                tbxSidor.Text = "";
+            }
+            else if (rdbVar == 2)
+            {
+                Ljudspår nyttLjud = new Ljudspår(tbxTitel.Text, Convert.ToDouble(tbxSpeltid.Text));
+                bibliotek.Add(nyttLjud);
+                lbxBibliotek.Items.Add(nyttLjud);
+                tbxTitel.Text = "";
+                tbxSpeltid.Text = "";
+            }
+            else if (rdbVar == 3)
+            {
+                Film nyFilm = new Film(tbxTitel.Text, Convert.ToDouble(tbxSpeltid.Text), tbxUpplosning.Text);
+                bibliotek.Add(nyFilm);
+                lbxBibliotek.Items.Add(nyFilm);
+                tbxTitel.Text = "";
+                tbxSpeltid.Text = "";
+                tbxUpplosning.Text = "";
+            }
         }
     }
 }
